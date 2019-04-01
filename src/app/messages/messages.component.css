@@ -1,0 +1,19 @@
+.messages {
+    width: 80%;
+    margin: auto;
+    color: #b9b7b6;
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-header-item {
+    display:inline;
+}
+.message-header button {
+    color: white;
+    background-color: #b9b7b6;
+}

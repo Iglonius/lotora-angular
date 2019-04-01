@@ -1,0 +1,30 @@
+h1 {
+    color: #d6a02c;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 32pt;
+}
+
+h2, h3 {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+body {
+    margin: 2em;
+}
+body, input[type="text"], button {
+    color: #888;
+    font-family: Cambria, Georgia;
+}
+/* everywhere else */
+* {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.character-info {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}

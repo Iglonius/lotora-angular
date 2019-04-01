@@ -1,0 +1,40 @@
+.info-panel {
+    color: #b9b7b6;
+    text-align: center;
+    margin-top: 2em;
+    display: flex;
+}
+
+.avatar-column {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.item-row-bottom {
+    width: 40%;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    justify-content: space-around;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.character-header {
+    color: #b9b7b6;
+    font-size: 16pt;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.character-info {
+    color: #b9b7b6;
+    margin-top: 8px;
+}
+
+.character-avatar {
+    padding-top: 1em;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+<h3>Characters</h3>
+<div class=character-list>
+  <ul class=character-items>
+    <li *ngFor="let char of characters">
+      <a routerLink="/details/{{char.id}}">
+        <span class="badge">{{char.id}}</span> {{char.name}}
+      </a>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,37 @@
+<div *ngIf="character">
+  <div class="info-panel">
+    <div class="item-column-left">
+      <app-item [item]=character.head></app-item>
+      <app-item [item]=character.neck></app-item>
+      <app-item [item]=character.shoulder></app-item>
+      <app-item [item]=character.back></app-item>
+      <app-item [item]=character.chest></app-item>
+      <app-item [item]=character.shirt></app-item>
+      <app-item [item]=character.tabard></app-item>
+      <app-item [item]=character.wrist></app-item>
+    </div>
+    <div class="avatar-column">
+      <div class="character-avatar">
+        <img src="http://render-eu.worldofwarcraft.com/character/{{character.thumbnail}}" alt="Character thumbnail" />
+      </div>
+      <div class="character-header">{{character.name}} &lt;{{character.guild}}&gt;
+      </div>
+      <div class="character-info">Level: {{character.level}} {{character.race}} {{character.class}}</div>
+      <div class="character-info">{{character.achievementPoints}} achievement points</div>
+      <div class="item-row-bottom">
+        <app-item [item]=character.mainHand></app-item>
+        <app-item [item]=character.offHand></app-item>
+      </div>
+    </div>
+    <div class="item-column-right">
+      <app-item [item]=character.hands></app-item>
+      <app-item [item]=character.waist></app-item>
+      <app-item [item]=character.legs></app-item>
+      <app-item [item]=character.feet></app-item>
+      <app-item [item]=character.finger1></app-item>
+      <app-item [item]=character.finger2></app-item>
+      <app-item [item]=character.trinket1></app-item>
+      <app-item [item]=character.trinket2></app-item>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+.item-component {
+    width: 56px;
+}
+
+.empty-item {
+    height: 54px;
+    border: 1px solid #b9b7b6;
+    margin-bottom: 4px;
+}
+
+.item-level {
+    color: #b9b7b6;
+}

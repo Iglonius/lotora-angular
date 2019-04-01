@@ -1,0 +1,8 @@
+<div class="item-component" *ngIf="item.icon">
+  <img src="https://wow.zamimg.com/images/wow/icons/large/{{item.icon}}.jpg" alt="{{item.name}}"/>
+  <div class="item-level">{{item.itemLevel}}</div>
+</div>
+<div class="item-component" *ngIf="!item.icon">
+  <div class="empty-item"></div>
+  <div class="item-level">Empty</div>
+</div>
